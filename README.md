@@ -76,17 +76,7 @@ Response:
 }
 ```
 
-### `GET /states`
-List all valid states.
 
-### `GET /districts/{state}`
-List valid districts for a given state, e.g. `/districts/Haryana`.
-
-### `GET /commodities`
-List all valid crop/commodity names.
-
-### `GET /metrics`
-Returns the model's training metrics (MAE, RMSE, R²).
 
 If you pass a state/district/commodity that wasn't in the training data, the API
 returns a `422` error telling you which value is unrecognized, instead of silently
