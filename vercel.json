@@ -1,4 +1,4 @@
 {
-  "builds": [{ "src": "Model2/app.py", "use": "@vercel/python" }],
-  "routes": [{ "src": "/(.*)", "dest": "Model2/app.py" }]
+  "builds": [{ "src": "app.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "app.py" }]
 }
